@@ -6,7 +6,7 @@ api = Api(app)
 
 class Greeting (Resource):
    def get(self):
-      return { "message" : "Hello, Flask!" }
+      return { "message" : "Hello, world! Hi Flask, my old friend." }
 api.add_resource(Greeting, '/') # Route_1
 
 if __name__ == '__main__':
